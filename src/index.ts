@@ -6,6 +6,6 @@ user.on('change', () => {
   console.log('User was changed');
 });
 
-user.trigger('change');
+user.set({ name: 'Neeeew' });
 
 console.log(user.get('name'));
